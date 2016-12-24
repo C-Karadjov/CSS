@@ -1,0 +1,136 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+#container {
+	width: 422px;
+	height: 387px;
+
+	border: 1px solid #5CCECE;
+	font-family: Arial;
+	font-size: 15px;
+	background-color: #5CCECE;
+}
+#logo {
+	margin-top: 6px;
+	margin-left: 10px;
+}
+#optionsButtons {
+	float: right;
+	margin-right: 6px;
+	margin-top: 1px;
+}
+#name {
+	margin-left: 150px;
+}
+#menu ul li {
+	display: inline-block;
+	padding: 0px 6px 0px 3px;
+	font-size: 0.8em;
+
+}
+#menu ul li:first-letter {
+	text-decoration: underline;
+}
+ul {
+	padding: 0px 0px 1px 5px;
+	margin: 5px 6px 0px 6px;
+	background-color: #F5F6F7;
+	-webkit-padding-start: 0px;
+}
+
+#displayContainer {
+	border: 1px solid #D9E4F1;
+	margin-right: 6px;
+	margin-left: 6px;
+	background: linear-gradient(to top,  #D9E4F1, #EDF4FC);
+}
+#display {
+	border: 1px solid #8E9CAD;
+	margin: 11px 10px 3px 10px; 
+	border-radius: 2px;
+	background: linear-gradient(to bottom, #E5EFFA, #FCFDFE);
+	text-align: right;
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-bottom:7px;
+	font-size: 1.5em;
+	font-family: Consolas;
+}
+#bits {
+	border: 1px solid #8E9CAD;
+	box-shadow: 0 0 1pt 1pt white inset;
+	border-radius: 2px;
+	background-color: #D9E4F1;
+	margin: 4px 10px 0px 10px;
+	width: 388px;
+}
+#bits tr td {
+	font-family: Consolas;
+	font-size: 0.8em;
+	line-height: 10px;
+	padding-left: 8px;
+}
+#bits tr:nth-of-type(2n+1) {
+	color: #1E395B;
+}
+#bits tr:nth-of-type(2n) {
+	color: #666666;
+}
+#buttons {
+	margin-left: 5px;
+	margin-top: 3px;
+	margin-right: 5px;
+	margin-bottom: 4px;
+	border-spacing: 5px;
+}
+.radioButton .block {
+	display: block;
+	font-size: 0.8em;
+	text-align: left;
+}
+.radioButton {
+	border: 1px solid #8E9CAD;
+	border-radius: 2px;
+	box-shadow: 0 0 1pt 1pt white inset;
+	background-color: #D9E4F1;
+	color: #1E395B;
+	width: 70px;
+	height: 77px;
+}
+.block {
+	padding: 1px;
+}
+#buttons td:not(.radioButton) {
+	border: 1px solid #8E9CAD;
+	border-radius: 2px;
+	color: #1E395B;
+	text-align: center;
+	font-size: 0.8em;
+	width: 31px;
+	height: 23px;
+}
+.metal {
+	box-shadow: 0 0 1pt 1pt white inset;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+16,c7d8ed+68 */
+    background: rgb(237,237,237); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(237,237,237,1) 16%, rgba(199,216,237,1) 68%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(237,237,237,1) 16%,rgba(199,216,237,1) 68%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(237,237,237,1) 16%,rgba(199,216,237,1) 68%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#c7d8ed',GradientType=0 ); /* IE6-9 */
+}
+.digit {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+16,eaf1f8+68 */
+    background: rgb(237,237,237); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(237,237,237,1) 16%, rgba(234,241,248,1) 68%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(237,237,237,1) 16%,rgba(234,241,248,1) 68%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(237,237,237,1) 16%,rgba(234,241,248,1) 68%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#eaf1f8',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
+
+
+

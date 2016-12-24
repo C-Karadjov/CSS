@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	width: 660px;
+	height: 300px;
+	background-color: #3a3a3a;
+	border-radius: 10px;
+}
+.login {
+	background: url('images/logo.png'),-moz-linear-gradient(top, rgba(59,59,59,0.6) 0%, rgba(59,59,59,0.6) 1%, rgba(42,42,42,1) 95%, rgba(59,59,59,0.9) 100%); /* FF3.6+ */
+    background: url('images/logo.png'),-webkit-linear-gradient(top, rgba(59,59,59,0.6) 0%,rgba(59,59,59,0.6) 1%,rgba(42,42,42,1) 95%,rgba(59,59,59,0.9) 100%); /* Chrome10+,Safari5.1+ */
+    background: url('images/logo.png'),-o-linear-gradient(top, rgba(59,59,59,0.6) 0%,rgba(59,59,59,0.6) 1%,rgba(42,42,42,1) 95%,rgba(59,59,59,0.9) 100%); /* Opera 11.10+ */
+    background: url('images/logo.png'),-ms-linear-gradient(top, rgba(59,59,59,0.6) 0%,rgba(59,59,59,0.6) 1%,rgba(42,42,42,1) 95%,rgba(59,59,59,0.9) 100%); /* IE10+ */
+    padding-top: 17px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    background-position: 2% 49%;
+
+}
+
+input[type="submit"] {
+	background: url('images/button.png');
+	width: 57px;
+	height: 28px;
+	border: none;	
+	color: white;
+}
+ .members-login {
+	margin-left: 50px;
+	margin-right: 37px;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+}
+input[type="text"] {
+	width: 144px;
+	margin-right: 20px;
+}
+article header h1 {
+	font-size: 30px;
+	color: #fdd416;
+	margin-top: 19px;
+	margin-bottom: 15px;
+}
+article {
+	margin: 10px;
+}
+p {
+	margin: 0;
+	padding: 0;
+	color: #a8a8a8;
+	line-height: 17px;
+	width: 600px;
+
+}
+.design-white {
+	color: white;
+}
+

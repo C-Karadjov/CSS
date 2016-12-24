@@ -1,0 +1,71 @@
+#wrapper {
+	width: 960px;
+}
+.menu {
+	margin: 0;
+	padding: 0;
+	font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+	font-size: 16px;
+	position: relative;
+}
+.content {
+	display: none;
+}
+.menu > li {
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	float: left;
+	margin-right: 10px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#32d0ef+0,7498e3+62 */
+    background: rgb(50,208,239); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(50,208,239,1) 0%, rgba(116,152,227,1) 62%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(50,208,239,1) 0%,rgba(116,152,227,1) 62%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(50,208,239,1) 0%,rgba(116,152,227,1) 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32d0ef', endColorstr='#7498e3',GradientType=0 ); /* IE6-9 */
+
+}
+.menu > li a {
+	text-decoration: none;
+	padding: 10px 10px;
+	color: blue;
+}
+.menu li:hover .content {
+	display: block;
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.menu > li:hover > a {
+	font-size: 1.4em;
+	padding-right: 35px;
+	padding-left: 35px;
+}
+.content {
+	padding: 10px 15px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,a8dbf0+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(168,219,240,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(168,219,240,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(168,219,240,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a8dbf0',GradientType=0 ); /* IE6-9 */
+
+}
+.bold {
+	font-weight: bold;
+}
+h3 {
+	text-decoration: underline;
+}
+.content p a {
+	font-size: 16px;
+	margin-left: 0px;
+}
+.menu li .content ul {
+	list-style-type: square;
+	padding-left: 2px;
+}
+.menu li .content ul li a{
+	margin-left: 0px;
+}

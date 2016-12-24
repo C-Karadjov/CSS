@@ -1,0 +1,59 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+wrapper {
+	width: 960px;
+}
+.menu {
+	font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+	font-size: 16px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu > li {
+	border-radius: 15px;
+	background-color: #B6FF00;
+	width: 150px;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.menu > li a {
+	text-decoration: none;	
+	color: black;
+}
+.menu li .content {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 130px;
+}
+.menu li:hover .content {
+	display: block;
+}
+.menu li .content .sub-menu li img {
+	display: none;
+}
+.sub-menu li {
+	background-color: green;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 19px;
+	width: 500px;
+	list-style: none;
+	text-align: left;
+}
+.content .sub-menu li a {
+	color: white;
+}
+.menu li .content .sub-menu li:hover img {
+	display: block;
+	width: 500px;
+	border-radius: 10px;
+	margin-top: 10px;
+}

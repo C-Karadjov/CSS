@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="container">
+        <img id="logo" src="images/calculator.png" alt="calculator">
+        <span id="name">Calculator</span>
+        <span id="optionsButtons">
+			<img src="images/buttons.png">
+		</span>
+        <div id="menu">
+            <ul>
+                <li>View</li>
+                <li>Edit</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div id="displayContainer">
+            <p id="display">0</p>
+            <table id="bits">
+                <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td>63</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>46</td>
+                    <td></td>
+                    <td></td>
+                    <td>&nbsp;&nbsp;32</td>
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>15</td>
+                    <td></td>
+                    <td></td>
+                    <td>&nbsp;&nbsp;&nbsp;0</td>
+                </tr>
+            </table>
+            <table id="buttons">
+                <tr>
+                    <td colspan="2" rowspan="3" class="radioButton">
+                        <form>
+                            <label class="block">
+                                <input type="radio" name="radio-group" value="Hex">Hex
+                            </label>
+                            <label class="block">
+                                <input type="radio" name="radio-group" value="Dec" checked>Dec
+                            </label>
+                            <label class="block">
+                                <input type="radio" name="radio-group" value="Oct">Oct
+                            </label>
+                            <label class="block">
+                                <input type="radio" name="radio-group" value="Bin">Bin
+                            </label>
+                        </form>
+                    </td>
+                    <td></td>
+                    <td class="metal">Mod</td>
+                    <td>A</td>
+                    <td>MC</td>
+                    <td>MR</td>
+                    <td>MS</td>
+                    <td>M+</td>
+                    <td>M-</td>
+                </tr>
+                <tr>
+                    <td class="metal">(</td>
+                    <td class="metal">)</td>
+                    <td>B</td>
+                    <td class="metal"><b>&leftarrow;</b></td>
+                    <td class="metal">CE</td>
+                    <td class="metal">C</td>
+                    <td class="metal">&plusmn;</td>
+                    <td>&Sqrt;</td>
+                </tr>
+                <tr>
+                    <td class="metal">RoL</td>
+                    <td class="metal">RoR</td>
+                    <td>C</td>
+                    <td class="digit">7</td>
+                    <td class="digit">8</td>
+                    <td class="digit">9</td>
+                    <td class="metal">&frasl;</td>
+                    <td>&percnt;</td>
+                </tr>
+                <td rowspan="3" colspan="2" class="radioButton">
+                    <form>
+                        <label class="block">
+                            <input type="radio" name="radio-group" value="Qword" checked>Qword
+                        </label>
+                        <label class="block">
+                            <input type="radio" name="radio-group" value="Dword">Dword
+                        </label>
+                        <label class="block">
+                            <input type="radio" name="radio-group" value="Word">Word
+                        </label>
+                        <label class="block">
+                            <input type="radio" name="radio-group" value="Byte">Byte
+                        </label>
+                    </form>
+                </td>
+                <td class="metal">Or</td>
+                <td class="metal">Xor</td>
+                <td>D</td>
+                <td class="digit">4</td>
+                <td class="digit">5</td>
+                <td class="digit">6</td>
+                <td class="metal">&lowast;</td>
+                <td>1/x</td>
+                </tr>
+                <tr>
+                    <td class="metal">Lsh</td>
+                    <td class="metal">Rsh</td>
+                    <td>E</td>
+                    <td class="digit">1</td>
+                    <td class="digit">2</td>
+                    <td class="digit">3</td>
+                    <td class="metal">&minus;</td>
+                    <td rowspan="2" class="metal"><b>&equals;</b></td>
+                </tr>
+                <tr>
+                    <td class="metal">Not</td>
+                    <td class="metal">And</td>
+                    <td>F</td>
+                    <td colspan="2" class="digit">0</td>
+                    <td>&period;</td>
+                    <td class="metal">&plus;</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

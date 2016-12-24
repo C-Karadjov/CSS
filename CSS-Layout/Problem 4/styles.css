@@ -1,0 +1,118 @@
+#container {
+	margin: 0;
+	padding: 0;
+	height: 620px;
+	width: 852px;
+	background-color: #f1f1f1;
+	font-family: Arial;
+	font-size: 12px;
+	border: 1px solid black;
+
+}
+nav ul li {
+	list-style: none;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+nav ul li:first-child {
+	color: #99211f;
+	font-weight: bold;
+}
+nav {
+	float: left;
+	margin-top: 10px;
+	margin-left: 3px;
+}
+nav ul {
+	-webkit-padding-start: 0
+}
+.home {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+main {
+	float: left;
+	border: 1px solid #808080;
+	margin-top: 3px;
+	margin-left: 10px;
+	padding: 5px;
+	width: 550px; 
+	height: 570px;
+	background-color: white;
+}
+h1{
+	font-size: 19px;
+}
+h2 {
+	background: #808080;
+	font-size: 14px;
+	color: white;
+	padding: 3px;
+}
+button {
+	width: 100px;
+	background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 3px;
+    font-size: 11px;
+}
+.leftArrow {
+    margin-right: 5px;
+}
+
+.rightArrow {
+    margin-left: 20px;
+}
+.button {
+	border-bottom: 2px solid #808080;
+	padding-bottom: 5px;
+}
+.article-image {
+	float: left;
+}
+.tutorial p {
+	font-weight: bold;
+	margin-left: 110px;
+}
+.tutorial {
+	margin-bottom: 20px;
+}
+.tutorial a {
+	margin-left: 15px;
+}
+article a {
+	color: #99211f;
+}
+footer {
+	margin-top: 10px;
+	border-top: 2px solid #808080;
+}
+footer div {
+	padding-top: 4px;
+}
+aside {
+	float: left;
+}
+aside div {
+	border: 1px solid #868686;
+	display: block;
+	text-align: center;
+	margin: 3px;
+	width: 150px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+aside a {
+	display: block;
+	color: #99211f;
+}
+input[type=search]
+{
+	width: 100px;
+}
+aside h2 {
+	-webkit-margin-before: 0.0em;
+}

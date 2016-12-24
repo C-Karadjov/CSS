@@ -1,0 +1,67 @@
+html, body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	background-image: url('images/header-bg.png');
+	height: 50px;
+}
+header h1 {
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 15px;
+	margin-top: 15px;	
+}
+#nav {
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+#nav ul li {
+	list-style: none;
+	float: left;
+	font-size: 14px;
+	margin-left: 20px;
+}
+#searchBar {
+	background-color: black;
+	font-size: 14px;
+	color: white;
+	padding: 10px;
+}
+#archives {
+	float: left;
+}
+#search {
+	float: right;
+}
+#archives a {
+	text-decoration: none;
+	color: white;
+}
+#search a {
+	color: white;
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+#content h1 {
+	font-size: 25px;
+	font-weight: bold;
+}	
+#content {
+	text-align: justify;
+	font-size: 14px;
+}

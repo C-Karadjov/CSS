@@ -1,0 +1,23 @@
+ul, li, a{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	color: black;
+}
+
+#parent-list li ul {
+	display: none;
+}
+
+#parent-list li:hover ul {
+	display: block;
+	padding-left: 10px;
+}
+
+#parent-list li ul a {
+	color: silver;
+}
+
+#parent-list li a:hover {
+	text-decoration: underline;
+}

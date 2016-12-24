@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	background-color: #eeeeee;
+	border-radius: 10px;
+	width: 420px;
+	height: 537px;
+	font-family: Arial Narrow;
+	font-size: 15px;
+}
+h1 {
+	font-weight: normal;
+	font-size: 17px;
+	padding-left: 12px;
+	padding-top: 15px;
+}
+section article {
+	border: 1px solid #afafaf;
+	margin: 35px 10px;
+	padding: 15px;
+	background-color: white;
+}	
+#container section article img {
+	display: inline-block;
+	border: 1px solid #afafaf;
+	float: left;
+
+}
+#container section article p {
+	display: inline-block;
+	width: 200px;
+	margin: 0px 0px 0px 10px;
+	vertical-align: top;
+}
+.listen {
+	background-image: url('images/listenButton.png');
+	width: 76px;
+	height: 25px;
+	border: none;
+	color: white;
+	margin-top: 12px;
+	margin-left: 86px;
+}
+.add {
+	background-image: url('images/addButton.png');
+	width: 63px;
+	height: 25px;
+	border: none;
+	color: white;
+
+}
+span {
+	font-weight: bold;
+}
+
+
+
+

@@ -1,0 +1,66 @@
+html, body {
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+#archive ul {
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 5px;
+}
+#archive ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+#archive ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 0.7em;
+}
+.clear {
+	clear: both;
+}
+#header {
+	background-image: url('images/topnav_divider.png');
+	padding: 15px;
+}
+#nav ul {
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+#nav ul li {
+	float: left;
+	font-size: 18px;
+	margin-right: 25px;
+	text-transform: capitalize;
+}
+#nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#header h1 {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+.clear {
+	clear: both;
+}
+#content h1 {
+	font-size: 1.7em;
+}

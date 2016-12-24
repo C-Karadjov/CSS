@@ -1,0 +1,53 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #a9a9a9;
+}
+
+body>header>h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+.current {
+    background-color: #d3d3d3;
+}
+
+nav > ul > li:last-child {
+	text-decoration: underline;
+}
+section header h1 {
+	color: white;
+	font-size: 30px;
+}
+section {
+	padding: 5px;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+}
+section + footer {
+	text-align: center;
+	font-size: 18px;
+	padding: 8px;
+}
+article:nth-child(2) {
+	display: none;
+}
+p:nth-child(2) {
+	font-size: 18px;
+}
